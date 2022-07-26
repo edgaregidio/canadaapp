@@ -74,11 +74,11 @@
   }
 
   .contents .info-items {
-    max-width: 13rem;
+    max-width: 14rem;
   }
 
   .contents .info-items .descriptions h2 {
-    font-size: 0.9rem;
+    font-size: 0.985rem;
     font-weight: 600;
   }
   .contents .info-items .descriptions h4 {
@@ -92,12 +92,12 @@
   }
 
   .img-items {
-    width: 7rem;
-    height: 6.2rem;
-    max-height: 6.2rem;
+    width: 7.5rem;
+    height: 6.8rem;
+    max-height: 6.8rem;
   }
   .img-items img {
-    width: 7rem;
+    width: 7.5rem;
     height: 100%;
     object-fit: cover;
   }
