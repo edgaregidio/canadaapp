@@ -23,7 +23,7 @@ const Navbar = () => {
               to="salgado"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -36,7 +36,7 @@ const Navbar = () => {
               to="empadao"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -49,7 +49,7 @@ const Navbar = () => {
               to="paes"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -62,7 +62,7 @@ const Navbar = () => {
               to="ovosmexidos"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -75,7 +75,7 @@ const Navbar = () => {
               to="mistos"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -88,7 +88,7 @@ const Navbar = () => {
               to="sanduiches"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -101,7 +101,7 @@ const Navbar = () => {
               to="tapioca"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -114,7 +114,7 @@ const Navbar = () => {
               to="omeletes"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -127,7 +127,7 @@ const Navbar = () => {
               to="adicionais"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -140,7 +140,7 @@ const Navbar = () => {
               to="cafe"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -153,7 +153,7 @@ const Navbar = () => {
               to="leites"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -166,7 +166,7 @@ const Navbar = () => {
               to="sucos"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -179,7 +179,7 @@ const Navbar = () => {
               to="cremes"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -192,7 +192,7 @@ const Navbar = () => {
               to="agua"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -205,7 +205,7 @@ const Navbar = () => {
               to="refrigerantes"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >
@@ -218,7 +218,7 @@ const Navbar = () => {
               to="energetico"
               spy={true}
               smooth={true}
-              offset={-160}
+              offset={-215}
               duration={500}
               onClick={closeMenu}
             >

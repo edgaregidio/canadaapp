@@ -8,7 +8,7 @@
   z-index: 1;
   transition: 0.3s ease-in;
   overflow: hidden;
-  background-color: #fef2e1;
+  background-color: #f7eee0;
 }
 
 .header .navbar {
@@ -31,7 +31,7 @@
 }
 
 .header .navbar img {
-  width: 10rem;
+  width: 7rem;
   height: auto;
 }
 
@@ -61,9 +61,6 @@
 /* RESPONSIVE */
 
 @media screen and (max-width: 800px) {
-  /* .navbar {
-    padding: 0;
-  } */
   .header {
     height: auto;
     padding-top: 1rem;

@@ -172,14 +172,6 @@ const data = [
     price2: 'R$ 14,50 (1 Litro)',
     image: AguaDeCoco
   },
-  // {
-  //   id: 'agua',
-  //   name: 'Água de Coco 1l',
-  //   description: '',
-  //   price1: 'R$ 14,50',
-  //   price2: '',
-  //   image: ''
-  // },
   {
     id: 'agua',
     name: 'Água sem gás 500ml',
