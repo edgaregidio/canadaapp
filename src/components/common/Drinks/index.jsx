@@ -18,6 +18,21 @@ import SucoDoisSabores from '../../../../public/img/items/sucodoissabores.jpg'
 import SucoDetox from '../../../../public/img/items/sucodetox.jpg'
 import SodaItaliana from '../../../../public/img/items/sodaitaliana.jpg'
 import Creme from '../../../../public/img/items/creme.jpg'
+import AguaDeCoco from '../../../../public/img/items/aguadecoco.jpeg'
+import AguaSemGas from '../../../../public/img/items/aguasemgas.jpg'
+import AguaComGas from '../../../../public/img/items/aguacomgas.jpg'
+import CocaNS200ml from '../../../../public/img/items/cocans200ml.jpg'
+import CocaKS290ml from '../../../../public/img/items/cocaks290ml.jpg'
+import CocaLS1l from '../../../../public/img/items/cocals1l.jpg'
+import Cocacaculinha from '../../../../public/img/items/cocacaculinha.jpeg'
+import CocaLataZero from '../../../../public/img/items/cocalatazero.jpg'
+import CocaLata from '../../../../public/img/items/cocalata.jpg'
+import Coca600 from '../../../../public/img/items/coca600.jpg'
+import Coca600zero from '../../../../public/img/items/coca600zero.jpg'
+import GuaranaCaculinha from '../../../../public/img/items/guaranacaculinha.jpg'
+import GuaranaLata from '../../../../public/img/items/guaranalata.jpg'
+import Guarana600 from '../../../../public/img/items/guarana600.jpg'
+import RedBull250 from '../../../../public/img/items/redbull250.jpg'
 
 const data = [
   {
@@ -151,27 +166,27 @@ const data = [
   },
   {
     id: 'agua',
-    name: 'Água de Coco 500ml',
+    name: 'Água de Coco',
     description: '',
-    price1: 'R$ 8,00',
-    price2: '',
-    image: ''
+    price1: 'R$ 8,00 (500ml)',
+    price2: 'R$ 14,50 (1 Litro)',
+    image: AguaDeCoco
   },
-  {
-    id: 'agua',
-    name: 'Água de Coco 1l',
-    description: '',
-    price1: 'R$ 14,50',
-    price2: '',
-    image: ''
-  },
+  // {
+  //   id: 'agua',
+  //   name: 'Água de Coco 1l',
+  //   description: '',
+  //   price1: 'R$ 14,50',
+  //   price2: '',
+  //   image: ''
+  // },
   {
     id: 'agua',
     name: 'Água sem gás 500ml',
     description: '',
     price1: 'R$ 3,00',
     price2: '',
-    image: ''
+    image: AguaSemGas
   },
   {
     id: 'agua',
@@ -179,7 +194,7 @@ const data = [
     description: '',
     price1: 'R$ 3,50',
     price2: '',
-    image: ''
+    image: AguaComGas
   },
   {
     id: 'refrigerantes',
@@ -187,7 +202,7 @@ const data = [
     description: '',
     price1: 'R$ 3,00',
     price2: '',
-    image: ''
+    image: CocaNS200ml
   },
   {
     id: 'refrigerantes',
@@ -195,7 +210,7 @@ const data = [
     description: '',
     price1: 'R$ 4,00',
     price2: '',
-    image: ''
+    image: CocaKS290ml
   },
   {
     id: 'refrigerantes',
@@ -203,7 +218,7 @@ const data = [
     description: '',
     price1: 'R$ 6,00',
     price2: '',
-    image: ''
+    image: CocaLS1l
   },
   {
     id: 'refrigerantes',
@@ -211,7 +226,7 @@ const data = [
     description: '',
     price1: 'R$ 3,00',
     price2: '',
-    image: ''
+    image: Cocacaculinha
   },
   {
     id: 'refrigerantes',
@@ -219,7 +234,7 @@ const data = [
     description: '',
     price1: 'R$ 4,50',
     price2: '',
-    image: ''
+    image: CocaLataZero
   },
   {
     id: 'refrigerantes',
@@ -227,7 +242,7 @@ const data = [
     description: '',
     price1: 'R$ 4,50',
     price2: '',
-    image: ''
+    image: CocaLata
   },
   {
     id: 'refrigerantes',
@@ -235,7 +250,7 @@ const data = [
     description: '',
     price1: 'R$ 5,50',
     price2: '',
-    image: ''
+    image: Coca600
   },
   {
     id: 'refrigerantes',
@@ -243,7 +258,7 @@ const data = [
     description: '',
     price1: 'R$ 5,50',
     price2: '',
-    image: ''
+    image: Coca600zero
   },
   {
     id: 'refrigerantes',
@@ -251,7 +266,7 @@ const data = [
     description: '',
     price1: 'R$ 3,00',
     price2: '',
-    image: ''
+    image: GuaranaCaculinha
   },
   {
     id: 'refrigerantes',
@@ -259,7 +274,7 @@ const data = [
     description: '',
     price1: 'R$ 4,50',
     price2: '',
-    image: ''
+    image: GuaranaLata
   },
   {
     id: 'refrigerantes',
@@ -267,7 +282,7 @@ const data = [
     description: '',
     price1: 'R$ 5,50',
     price2: '',
-    image: ''
+    image: Guarana600
   },
   {
     id: 'energetico',
@@ -275,7 +290,7 @@ const data = [
     description: '',
     price1: 'R$ 10,50',
     price2: '',
-    image: ''
+    image: RedBull250
   }
 ]
 
@@ -302,7 +317,7 @@ function Drinks() {
           <div className="img-items">
             <img
               src={item.image === '' ? ImgDefault : item.image}
-              alt="Xícara de Café"
+              alt={item.name}
             ></img>
           </div>
         </div>

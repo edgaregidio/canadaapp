@@ -31,6 +31,10 @@
 }
 
 .img-items img {
+  overflow: hidden;
+}
+
+.img-items img {
   width: 15rem;
   height: 13rem;
   object-fit: cover;
