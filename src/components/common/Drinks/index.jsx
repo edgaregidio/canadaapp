@@ -9,6 +9,7 @@ import Cappuccinoitaliano from '../../../../public/img/items/cappuccinoitaliano.
 import CappuccinoCremoso from '../../../../public/img/items/cappuccinocremoso.jpg'
 import ChocolateQuente from '../../../../public/img/items/chocolatequente.jpg'
 import LeiteComCafeToddyPequeno from '../../../../public/img/items/leitecomcafetoddypequeno.jpg'
+import leitecafegrande from '../../../../public/img/items/leitecafegrande.jpg'
 // import LeiteComCafeToddyGrande from '../../../../public/img/items/leitecomcafetoddygrande.jpg'
 import LeitePuro from '../../../../public/img/items/leitepuro.jpg'
 import SucoDeLaranja from '../../../../public/img/items/sucodelaranja.jpg'
@@ -81,7 +82,7 @@ const data = [
     description: '',
     price1: 'R$ 5,00',
     price2: '',
-    image: ''
+    image: leitecafegrande
   },
   {
     id: 'leites',
