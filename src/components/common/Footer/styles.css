@@ -80,4 +80,10 @@
     padding: 2rem 0;
     font-size: 0.6rem;
   }
+
+  .col-footer h1 {
+    color: var(--bg-color);
+    text-align: center;
+    width: 100%;
+  }
 }
