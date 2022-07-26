@@ -36,14 +36,14 @@ function Footer() {
           </a>
         </div>
       </section>
-      {/* <div className="content-dev">
+      <div className="content-dev">
         <h1>
           Desenvolvido por{' '}
           <a href="https://github.com/edgaregidio" target="_blank">
             Edgar Egidio
           </a>
         </h1>
-      </div> */}
+      </div>
     </>
   )
 }
