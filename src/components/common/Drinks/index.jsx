@@ -4,13 +4,13 @@
 // imagens do cardápio
 import ImgDefault from '../../../../public/img/items/imgdefault.png'
 import Cafe from '../../../../public/img/items/cafe.jpg'
+import CafeExpresso from '../../../../public/img/items/cafeexpresso.jpg'
 import Pingado from '../../../../public/img/items/pingado.jpg'
 import Cappuccinoitaliano from '../../../../public/img/items/cappuccinoitaliano.jpg'
 import CappuccinoCremoso from '../../../../public/img/items/cappuccinocremoso.jpg'
 import ChocolateQuente from '../../../../public/img/items/chocolatequente.jpg'
 import LeiteComCafeToddyPequeno from '../../../../public/img/items/leitecomcafetoddypequeno.jpg'
 import leitecafegrande from '../../../../public/img/items/leitecafegrande.jpg'
-// import LeiteComCafeToddyGrande from '../../../../public/img/items/leitecomcafetoddygrande.jpg'
 import LeitePuro from '../../../../public/img/items/leitepuro.jpg'
 import SucoDeLaranja from '../../../../public/img/items/sucodelaranja.jpg'
 import SucoDaPolpa from '../../../../public/img/items/sucodapolpa.jpg'
@@ -34,7 +34,7 @@ const data = [
     description: '',
     price1: 'R$ 6,50',
     price2: '',
-    image: Cafe
+    image: CafeExpresso
   },
   {
     id: 'cafe',
