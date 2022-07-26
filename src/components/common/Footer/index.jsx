@@ -13,7 +13,11 @@ function Footer() {
         <div className="col-footer">
           <h1>Contato</h1>
 
-          <a href="https://google.com" target="_blank" className="link-contact">
+          <a
+            href="https://instagram.com/panificadoracanada"
+            target="_blank"
+            className="link-contact"
+          >
             <div className="contact">
               <Icon
                 icon="ant-design:instagram-filled"
@@ -24,7 +28,12 @@ function Footer() {
             </div>
           </a>
 
-          <a href="https://google.com" target="_blank" className="link-contact">
+          <a
+            href="tel:+556232142586"
+            type="tel"
+            target="_blank"
+            className="link-contact"
+          >
             <div className="contact">
               <Icon
                 icon="dashicons:whatsapp"
