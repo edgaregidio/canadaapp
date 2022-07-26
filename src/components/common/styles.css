@@ -23,11 +23,11 @@
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid var(--bg-two-color);
+  border-top: 1px solid var(--secondary-bege-color);
 }
 
 .content-items ~ section {
-  border-top: 1px solid var(--bg-two-color);
+  border-top: 1px solid var(--secondary-bege-color);
 }
 
 .img-items img {
@@ -54,7 +54,7 @@
 .contents .info-items .prices p {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 /* RESPOSIVO */
