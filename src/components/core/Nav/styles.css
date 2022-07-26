@@ -21,6 +21,11 @@
   padding: 0 1rem;
 }
 
+.header .nav-menu {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 .header .nav-menu a {
   color: #444;
 }
@@ -92,3 +97,39 @@
     width: 9.375rem;
   }
 } */
+
+@media screen and (max-width: 800px) {
+  /* .navbar {
+    padding: 0;
+  } */
+  .header {
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+  .header .navbar {
+    flex-direction: column;
+    /* height: 100rem; */
+  }
+  .header .navbar ul {
+    padding: 1rem;
+  }
+  .header .navbar .nav-item {
+    padding-bottom: 0;
+  }
+
+  .header .nav-menu {
+    max-width: 25rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .header .nav-menu li a {
+    min-width: 10rem;
+  }
+
+  .header .nav-item {
+    padding: 0;
+    min-width: 7rem;
+    text-align: center;
+  }
+}

@@ -16,10 +16,10 @@ const Navbar = () => {
         <a href="/" className="logo">
           <img src={logo} alt="logo" />
         </a>
-        <div className="hamburger" onClick={handleClick}>
+        {/* <div className="hamburger" onClick={handleClick}>
           {click ? <p>oi</p> : <p>oi2</p>}
-        </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        </div> */}
+        <ul className={'nav-menu'}>
           <li className="nav-item">
             <Link
               activeClass="active"
