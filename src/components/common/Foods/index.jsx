@@ -196,7 +196,7 @@ function Foods() {
           <div className="img-items">
             <img
               src={item.image === '' ? ImgDefault : item.image}
-              alt="Xícara de Café"
+              alt={item.name}
             ></img>
           </div>
         </div>
