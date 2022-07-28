@@ -31,7 +31,7 @@ function App() {
         }}
       >
         <p>Aguarde...</p>
-        <span style={{ position: 'relative', left: '3.5rem', top: '1rem' }}>
+        <span style={{ position: 'relative', left: '3.5rem', top: '2rem' }}>
           <Icon icon="eos-icons:loading" />
         </span>
       </span>
