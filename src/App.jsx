@@ -22,9 +22,19 @@ function App() {
       <Foods />
       <Drinks />
       <Footer /> */}
-      <p style={{ position: 'absolute', left: '45%', top: '45%' }}>
-        Aguarde... <Icon icon="eos-icons:loading" />{' '}
-      </p>
+      <span
+        style={{
+          position: 'absolute',
+          left: '30%',
+          top: '45%',
+          fontSize: 30
+        }}
+      >
+        <p>Aguarde...</p>
+        <span style={{ position: 'relative', left: '3.5rem', top: '1rem' }}>
+          <Icon icon="eos-icons:loading" />
+        </span>
+      </span>
     </>
   )
 }
