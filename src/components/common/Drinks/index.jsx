@@ -143,7 +143,7 @@ const data = [
   {
     id: 'sucos',
     name: 'Suco Detox',
-    description: '(Água de coco, a bacaxi, limão e couve) 400ml',
+    description: '(Água de coco, abacaxi, limão e couve) 400ml',
     price1: 'R$ 14,00',
     price2: '',
     image: SucoDetox

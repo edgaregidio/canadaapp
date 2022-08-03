@@ -105,7 +105,7 @@ const Navbar = () => {
               duration={500}
               onClick={closeMenu}
             >
-              Tapioca
+              Tapiocas
             </Link>
           </li>
           <li className="nav-item">

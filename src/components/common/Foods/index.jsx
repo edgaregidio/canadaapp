@@ -59,7 +59,7 @@ const data = [
   },
   {
     id: 'ovosmexidos',
-    name: 'Ovos mechidos ou fritos',
+    name: 'Ovos mexidos ou fritos',
     description: '',
     price1: 'R$ 5,00 (1 und)',
     price2: 'R$ 8,00 (2 und)',
@@ -67,7 +67,7 @@ const data = [
   },
   {
     id: 'mistos',
-    name: 'Mistos Simples',
+    name: 'Misto Simples',
     description: 'Pão Francês, Presunto e Muçarela',
     price1: 'R$ 9,00',
     price2: '',
@@ -75,7 +75,7 @@ const data = [
   },
   {
     id: 'mistos',
-    name: 'Mistos Completo',
+    name: 'Misto Completo',
     description: 'Pão Francês, Presunto e Muçarela, ovo, Tomate e Alface',
     price1: 'R$ 11,00',
     price2: '',
