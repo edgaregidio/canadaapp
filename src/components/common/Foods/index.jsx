@@ -21,7 +21,7 @@ const data = [
     id: 'salgado',
     name: 'Salgado Grande',
     description: '',
-    price1: 'R$ 9,00',
+    price1: 'R$ 10,00',
     price2: '',
     image: SalgadosGrandes
   },
@@ -29,7 +29,7 @@ const data = [
     id: 'empadao',
     name: 'Empadão',
     description: '',
-    price1: 'R$ 13,50',
+    price1: 'R$ 14,50',
     price2: '',
     image: Empadao
   },
@@ -37,7 +37,7 @@ const data = [
     id: 'paes',
     name: 'Pão com Manteiga na chapa',
     description: '',
-    price1: 'R$ 5,50',
+    price1: 'R$ 6,00',
     price2: '',
     image: PaoComManteiga
   },
@@ -45,7 +45,7 @@ const data = [
     id: 'paes',
     name: 'Pão Francês com Requeijão na chapa',
     description: '',
-    price1: 'R$ 7,00',
+    price1: 'R$ 7,50',
     price2: '',
     image: PaoComRequeijao
   },
@@ -53,7 +53,7 @@ const data = [
     id: 'paes',
     name: 'Pão Francês com Ovo',
     description: '',
-    price1: 'R$ 6,50',
+    price1: 'R$ 7,00',
     price2: '',
     image: PaoFrancesComOvo
   },
@@ -61,15 +61,15 @@ const data = [
     id: 'ovosmexidos',
     name: 'Ovos mexidos ou fritos',
     description: '',
-    price1: 'R$ 5,00 (1 und)',
-    price2: 'R$ 8,00 (2 und)',
+    price1: 'R$ 5,50 (1 und)',
+    price2: 'R$ 8,50 (2 und)',
     image: OvosMexidos
   },
   {
     id: 'mistos',
     name: 'Misto Simples',
     description: 'Pão Francês, Presunto e Muçarela',
-    price1: 'R$ 9,00',
+    price1: 'R$ 9,50',
     price2: '',
     image: MistoSimples
   },
@@ -77,7 +77,7 @@ const data = [
     id: 'mistos',
     name: 'Misto Completo',
     description: 'Pão Francês, Presunto e Muçarela, ovo, Tomate e Alface',
-    price1: 'R$ 11,00',
+    price1: 'R$ 11,50',
     price2: '',
     image: MistoCompleto
   },
@@ -85,7 +85,7 @@ const data = [
     id: 'sanduiches',
     name: 'Sanduiche Natural',
     description: 'Pão Francês, Presunto e Muçarela, Tomate, Maionese e Alface',
-    price1: 'R$ 8,00',
+    price1: 'R$ 8,50',
     price2: '',
     image: SanduicheNatural
   },
@@ -102,7 +102,7 @@ const data = [
     id: 'tapioca',
     name: 'Tapioca Leve',
     description: 'Muçarela, Peito de Peru, Requeijão, Tomate e Orégano',
-    price1: 'R$ 14,00',
+    price1: 'R$ 15,00',
     price2: '',
     image: Tapioca
   },
@@ -110,7 +110,7 @@ const data = [
     id: 'tapioca',
     name: 'Tapioca de Queijo',
     description: 'Muçarela, Requeijão, Tomate e Orégano',
-    price1: 'R$ 14,00',
+    price1: 'R$ 15,00',
     price2: '',
     image: Tapioca
   },
@@ -118,7 +118,7 @@ const data = [
     id: 'tapioca',
     name: 'Tapioca Presunto e Queijo',
     description: 'Muçarela, Presunto, Requeijão, Tomate e Orégano',
-    price1: 'R$ 14,00',
+    price1: 'R$ 15,00',
     price2: '',
     image: Tapioca
   },
@@ -126,7 +126,7 @@ const data = [
     id: 'tapioca',
     name: 'Tapioca de Frango',
     description: 'Muçarela, Frango, Requeijão, Tomate e Orégano',
-    price1: 'R$ 14,00',
+    price1: 'R$ 15,00',
     price2: '',
     image: Tapioca
   },
@@ -134,7 +134,7 @@ const data = [
     id: 'omeletes',
     name: 'Omelete Leve',
     description: 'Muçarela, Peito de Peru, Requeijão, Tomate e Orégano',
-    price1: 'R$ 15,00',
+    price1: 'R$ 16,00',
     price2: '',
     image: Omelete
   },
@@ -142,7 +142,7 @@ const data = [
     id: 'omeletes',
     name: 'Omelete de Queijo',
     description: 'Muçarela, Requeijão, Tomate e Orégano',
-    price1: 'R$ 15,00',
+    price1: 'R$ 16,00',
     price2: '',
     image: Omelete
   },
@@ -150,7 +150,7 @@ const data = [
     id: 'omeletes',
     name: 'Omelete Presunto e Queijo',
     description: 'Muçarela, Presunto, Requeijão, Tomate e Orégano',
-    price1: 'R$ 15,00',
+    price1: 'R$ 16,00',
     price2: '',
     image: Omelete
   },
@@ -158,7 +158,7 @@ const data = [
     id: 'omeletes',
     name: 'Omelete de Frango',
     description: 'Muçarela, Frango, Requeijão, Tomate e Orégano',
-    price1: 'R$ 15,00',
+    price1: 'R$ 16,00',
     price2: '',
     image: Omelete
   },
