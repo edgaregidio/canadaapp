@@ -39,7 +39,7 @@ const data = [
     id: 'cafe',
     name: 'Café 100ml',
     description: '',
-    price1: 'R$ 4,00',
+    price1: 'R$ 5,00',
     price2: '',
     image: Cafe
   },
@@ -47,7 +47,7 @@ const data = [
     id: 'cafe',
     name: 'Café Expresso 50ml',
     description: '',
-    price1: 'R$ 9,00',
+    price1: 'R$ 10,00',
     price2: '',
     image: CafeExpresso
   },
