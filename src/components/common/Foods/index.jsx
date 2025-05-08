@@ -19,19 +19,19 @@ import Omelete from '../../../../public/img/items/omelete.jpg'
 const data = [
   {
     id: 'salgado',
-    name: 'Salgado Grande',
+    name: 'Salgado Tradicional',
     description: '',
-    price1: 'R$ 13,00',
+    price1: 'R$ 15,00',
     price2: '',
     image: SalgadosGrandes
   },
   {
-    id: 'empadao',
-    name: 'Empadão',
-    description: '',
+    id: 'especial',
+    name: 'Salgado Especial',
+    description: 'Coxinha de Camarão, Quiche, Torta de Frango, Panqueca e Empadão.',
     price1: 'R$ 17,00',
     price2: '',
-    image: Empadao
+    image: ''
   },
   {
     id: 'paes',

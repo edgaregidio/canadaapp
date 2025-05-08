@@ -27,13 +27,13 @@ const Navbar = () => {
               duration={500}
               onClick={closeMenu}
             >
-              Salgado
+              Salgados
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               activeClass="active"
-              to="empadao"
+              to="especial"
               spy={true}
               smooth={true}
               offset={-215}
@@ -42,7 +42,7 @@ const Navbar = () => {
             >
               Empadão
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link
               activeClass="active"
