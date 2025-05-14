@@ -15,13 +15,14 @@ import SanduicheNatural from '../../../../public/img/items/sanduichenatural.jpg'
 import BurgerEspecial from '../../../../public/img/items/burgerespecial.jpg'
 import Tapioca from '../../../../public/img/items/tapioca.jpg'
 import Omelete from '../../../../public/img/items/omelete.jpg'
+import SalgadosEspeciais from '../../../../public/img/items/salgadosEspeciais.jpeg'
 
 const data = [
   {
     id: 'salgado',
     name: 'Salgado Tradicional',
     description: '',
-    price1: 'R$ 15,00',
+    price1: 'R$ 13,00',
     price2: '',
     image: SalgadosGrandes
   },
@@ -29,9 +30,9 @@ const data = [
     id: 'especial',
     name: 'Salgado Especial',
     description: 'Coxinha de Camarão, Quiche, Torta de Frango, Panqueca e Empadão.',
-    price1: 'R$ 17,00',
+    price1: 'R$ 15,00',
     price2: '',
-    image: ''
+    image: SalgadosEspeciais
   },
   {
     id: 'paes',
