@@ -39,7 +39,7 @@ const data = [
     id: 'cafe',
     name: 'Café 100ml',
     description: '',
-    price1: 'R$ 5,00',
+    price1: 'R$ 6,00',
     price2: '',
     image: Cafe
   },
@@ -47,7 +47,7 @@ const data = [
     id: 'cafe',
     name: 'Café Expresso 50ml',
     description: '',
-    price1: 'R$ 10,00',
+    price1: 'R$ 11,00',
     price2: '',
     image: CafeExpresso
   },
@@ -55,7 +55,7 @@ const data = [
     id: 'cafe',
     name: 'Pingado 100ml',
     description: '',
-    price1: 'R$ 6,00',
+    price1: 'R$ 7,00',
     price2: '',
     image: Pingado
   },
@@ -63,7 +63,7 @@ const data = [
     id: 'cafe',
     name: 'Cappuccino Italiano 200ml',
     description: '',
-    price1: 'R$ 18,00',
+    price1: 'R$ 20,00',
     price2: '',
     image: Cappuccinoitaliano
   },
@@ -71,7 +71,7 @@ const data = [
     id: 'cafe',
     name: 'Cappuccino Cremoso 200ml',
     description: '',
-    price1: 'R$ 18,00',
+    price1: 'R$ 20,00',
     price2: '',
     image: CappuccinoCremoso
   },
@@ -79,7 +79,7 @@ const data = [
     id: 'leites',
     name: 'Chocolate quente 200ml',
     description: '',
-    price1: 'R$ 18,00',
+    price1: 'R$ 20,00',
     price2: '',
     image: ChocolateQuente
   },
@@ -87,7 +87,7 @@ const data = [
     id: 'leites',
     name: 'Leite com CAFÉ/TODDY pequeno 200 ml',
     description: '',
-    price1: 'R$ 6,50',
+    price1: 'R$ 7,50',
     price2: '',
     image: LeiteComCafeToddyPequeno
   },
@@ -95,7 +95,7 @@ const data = [
     id: 'leites',
     name: 'Leite com CAFÉ/TODDY grande 300 ml',
     description: '',
-    price1: 'R$ 7,50',
+    price1: 'R$ 8,50',
     price2: '',
     image: leitecafegrande
   },
@@ -103,7 +103,7 @@ const data = [
     id: 'leites',
     name: 'Leite Puro gelado 300ml',
     description: '',
-    price1: 'R$ 6,00',
+    price1: 'R$ 7,00',
     price2: '',
     image: LeitePuro
   },
@@ -111,7 +111,7 @@ const data = [
     id: 'leites',
     name: 'Leite Puro quente 300ml',
     description: '',
-    price1: 'R$ 7,00',
+    price1: 'R$ 8,00',
     price2: '',
     image: LeitePuro
   },
@@ -119,7 +119,7 @@ const data = [
     id: 'sucos',
     name: 'Suco de laranja 400ml',
     description: '',
-    price1: 'R$ 13,00',
+    price1: 'R$ 14,00',
     price2: '',
     image: SucoDeLaranja
   },
@@ -127,7 +127,7 @@ const data = [
     id: 'sucos',
     name: 'Suco de Polpa',
     description: '(Maracujá/ Caju/ Morango/ Tamarindo/Acerola e Abacaxi) 400ml',
-    price1: 'R$ 15,00',
+    price1: 'R$ 16,00',
     price2: '',
     image: SucoDaPolpa
   },
@@ -136,7 +136,7 @@ const data = [
     name: 'Suco dois Sabores',
     description:
       '(Abacaxi e Hortelã, Laranja e Acerola, Laranja e Morango, Laranja e Mamão) 400ml',
-    price1: 'R$ 17,00',
+    price1: 'R$ 18,00',
     price2: '',
     image: SucoDoisSabores
   },
@@ -144,7 +144,7 @@ const data = [
     id: 'sucos',
     name: 'Suco Detox',
     description: '(Água de coco, abacaxi, limão e couve) 400ml',
-    price1: 'R$ 17,00',
+    price1: 'R$ 18,00',
     price2: '',
     image: SucoDetox
   },
@@ -152,7 +152,7 @@ const data = [
     id: 'sucos',
     name: 'Soda Italiana',
     description: '(Morango, Maçã Verde) 400ml',
-    price1: 'R$ 17,00',
+    price1: 'R$ 18,00',
     price2: '',
     image: SodaItaliana
   },
@@ -160,7 +160,7 @@ const data = [
     id: 'cremes',
     name: 'Cremes',
     description: '(Morango, maracujá, cupuaçu) 400ml',
-    price1: 'R$ 16,00',
+    price1: 'R$ 17,00',
     price2: '',
     image: Creme
   },
@@ -168,15 +168,15 @@ const data = [
     id: 'agua',
     name: 'Água de Coco',
     description: '',
-    price1: 'R$ 10,00 (500ml)',
-    price2: 'R$ 16,00 (1 Litro)',
+    price1: 'R$ 10,50 (500ml)',
+    price2: 'R$ 17,50 (1 Litro)',
     image: AguaDeCoco
   },
   {
     id: 'agua',
     name: 'Água sem gás 500ml',
     description: '',
-    price1: 'R$ 4,00',
+    price1: 'R$ 4,50',
     price2: '',
     image: AguaSemGas
   },
@@ -184,7 +184,7 @@ const data = [
     id: 'agua',
     name: 'Água com gás 500ml',
     description: '',
-    price1: 'R$ 5,00',
+    price1: 'R$ 5,50',
     price2: '',
     image: AguaComGas
   },
@@ -280,7 +280,7 @@ const data = [
     id: 'energetico',
     name: 'Energetico Red Bull 250ml',
     description: '',
-    price1: 'R$ 13,00',
+    price1: 'R$ 13,50',
     price2: '',
     image: RedBull250
   }
