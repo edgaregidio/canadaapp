@@ -22,7 +22,7 @@ const data = [
     id: 'salgado',
     name: 'Salgado Tradicional',
     description: '',
-    price1: 'R$ 10,99',
+    price1: 'R$ 12,99',
     price2: '',
     image: SalgadosGrandes
   },
