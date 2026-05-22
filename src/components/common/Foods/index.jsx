@@ -30,7 +30,7 @@ const data = [
     id: 'especial',
     name: 'Salgado Especial',
     description: 'Coxinha de Camarão, Quiche, Torta de Frango, Panqueca e Empadão.',
-    price1: 'R$ 16,00',
+    price1: 'R$ 15,99',
     price2: '',
     image: SalgadosEspeciais
   },
